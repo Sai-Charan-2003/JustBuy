@@ -1,18 +1,17 @@
+import './laptopapp.css'
 import Appbar from './Components/navbar.js'
-import Mobiles from './Components/mobiles/mobiles.js'
 import Laptops from './Components/laptops/laptops.js'
 import Footer from './Components/footer/footer.js'
-import './App.css';
 
-function App() {
+
+function LaptopApp() {
   return (
-    <div className="App">
+    <div className="LaptopApp">
       <Appbar/>
-      <Mobiles/>
-      <Laptops/>
+      <Laptops />
       <Footer/>
     </div>
   );
 }
 
-export default App;
+export default LaptopApp;
